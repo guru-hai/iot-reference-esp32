@@ -1,0 +1,1 @@
+python3 managed_components/espressif__esp_secure_cert_mgr/tools/configure_esp_secure_cert.py -p /dev/tty.usbserial-2130 --keep_ds_data_on_host --ca-cert main/certs/root_cert_auth.crt --device-cert main/certs/thing_certificate.pem.crt --private-key main/certs/thing_private.pem.key --target_chip esp32c6 --secure_cert_type cust_flash --priv_key_algo RSA 2048
